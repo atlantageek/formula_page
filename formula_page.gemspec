@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = FormulaPage::VERSION
   spec.authors       = ["Tommie Jones"]
   spec.email         = ["atlantageek@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{A tool that takes a excel document and generates a web page}
+  spec.summary       = %q{A tool that takes an excel document and generates a web page}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
 end
