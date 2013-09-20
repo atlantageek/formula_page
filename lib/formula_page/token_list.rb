@@ -50,7 +50,7 @@ module FormulaPage
       end
     end
     def self.current
-      return false if @items.length == 0
+      return false if @@items.length == 0
       return @@items[@@index]
     end
     def self.next
